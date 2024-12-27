@@ -13,6 +13,9 @@ room = "2.6.1"
 lifecycleLiveData = "2.8.7"
 coroutines = "1.7.3"
 ksp = "2.1.0-1.0.29"
+picasso = "2.8"
+retrofit = "2.9.0"
+retrofit-gson = "2.9.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -33,6 +36,9 @@ androidx-lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-r
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+androidx-retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit"}
+androidx-retrofit-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit-gson"}
+androidx-picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

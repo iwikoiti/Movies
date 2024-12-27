@@ -55,6 +55,9 @@ dependencies {
     //kapt(libs.androidx.room.compiler)
     implementation(libs.androidx.room)
 
+    implementation(libs.androidx.retrofit)
+    implementation(libs.androidx.retrofit.gson)
+    implementation(libs.androidx.picasso)
 
     implementation(libs.androidx.lifecycle.viewmodel)
     implementation(libs.androidx.lifecycle.livedata)
