@@ -3,4 +3,8 @@
     <string name="empty_list">There are currently no movies in your watch list. Tap the button below to get started!</string>
     <string name="delete_selected">Delete Selected</string>
     <string name="add_movie">Add Movie</string>
+
+    <string name="movie_title">Movie Title</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="poster">Poster</string>
 </resources>

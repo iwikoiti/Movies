@@ -45,7 +45,8 @@ class MainActivity : AppCompatActivity() {
         })
 
         binding.fabAddMovie.setOnClickListener {
-
+            val intent = Intent(this, AddMovieActivity::class.java)
+            startActivity(intent)
         }
     }
 
