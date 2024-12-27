@@ -24,6 +24,10 @@ android {
         viewBinding = true
     }
 
+    viewBinding {
+        enable = true
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
@@ -62,6 +66,7 @@ dependencies {
     implementation(libs.androidx.retrofit)
     implementation(libs.androidx.retrofit.gson)
     implementation(libs.androidx.picasso)
+    implementation(libs.androidx.recyclerview)
 
     implementation(libs.androidx.navigation.fragment)
     implementation(libs.androidx.navigation.ui)
