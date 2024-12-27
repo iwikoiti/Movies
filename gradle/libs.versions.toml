@@ -16,6 +16,8 @@ ksp = "2.1.0-1.0.29"
 picasso = "2.8"
 retrofit = "2.9.0"
 retrofit-gson = "2.9.0"
+navigation = "2.8.5"
+bindings = "8.7.3"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -39,6 +41,9 @@ kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutine
 androidx-retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit"}
 androidx-retrofit-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit-gson"}
 androidx-picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+androidx-navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+androidx-navigation-ui = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
+androidx-databinding = { module = "androidx.databinding:databinding-runtime", version.ref = "bindings" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
