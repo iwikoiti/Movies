@@ -18,6 +18,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Movies"
         tools:targetApi="31">
+
+        <activity
+            android:name=".MoviesBrowseActivity"
+            android:exported="false"
+            android:parentActivityName=".AddMovieActivity"/>
+        <activity
+            android:name=".AddMovieActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

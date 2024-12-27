@@ -73,7 +73,7 @@ class AddMovieActivity: AppCompatActivity()  {
         setupYearSpinner()
 
         if (savedInstanceState != null) {
-            movie = savedInstanceState.getParcelable("movie", Movie::class.java) // Восстанавливаем переменную movie
+            movie = savedInstanceState.getParcelable("movie", Movie::class.java)
             Log.e("GOOOOD", "$movie")
         }
 
