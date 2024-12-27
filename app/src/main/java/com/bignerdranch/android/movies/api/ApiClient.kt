@@ -12,5 +12,11 @@ object ApiClient {
         .addInterceptor(ApiInterceptor(API_KEY))
         .build()
 
+    private val retrofit: Retrofit = Retrofit.Builder()
+        .baseUrl(BASE_URL)
+        .client(okHttpClient)
+        .addConverterFactory(GsonConverterFactory.create())
+        .build()
 
+    val apiService: ApiService = retrofit.create(ApiService::class.java)
 }
